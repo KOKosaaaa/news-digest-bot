@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+news_bot/data/
+*.db
+.env

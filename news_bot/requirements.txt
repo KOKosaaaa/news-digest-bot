@@ -1,0 +1,7 @@
+aiogram>=3.0
+duckduckgo-search>=6.0
+newspaper3k
+aiohttp
+openai>=1.0
+aiosqlite
+lxml_html_clean
