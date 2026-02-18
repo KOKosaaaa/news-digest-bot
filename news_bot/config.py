@@ -4,7 +4,7 @@
 import os
 BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "YOUR_DEEPSEEK_API_KEY")
-DEEPSEEK_BASE_URL = "https://llms.dotpoin.com/v1"
+DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
 DEEPSEEK_MODEL = "deepseek-chat"  # DeepSeek-V3
 
 # === НАСТРОЙКИ ПО УМОЛЧАНИЮ ===
